@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f4f4f4;
+}
+
+.naviga{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #323232;
+    width: 1600px;
+    height: 50px;
+    gap: 40px;
+    color: white;
+}
+
+
+h1{
+    text-align: center;
+    font-size: 30px;
+    margin: 5px;
+}
+
+.para{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+h3{
+    padding: 20px;
+    font-size: 40px;
+    font-weight: 100;
+}
+
+
+.vse{
+    display: flex;
+    background-color: #f8f8f8;
+    flex-direction: column;
+    margin-bottom: 200px;
+    height: 400px;
+    padding: 10px;
+    width: 1760px;
+    margin-right: -270px;
+}
+
+.inf{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 10px 5px;
+    width: 200px;
+    height: 80px;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+.baska{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 10px 5px;
+    width: 200px;
+    height: 80px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.ost{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.prj{
+    display: flex;
+    flex-direction: row;
+}
+
+.about-me{
+    background-color: #e8ebee;
+    margin-bottom: 200px;
+    height: 300px;
+    width: 1500px;
+    padding: 30px;
+    margin-top: -100px;
+}
+
+.me{
+    font-size: 40px;
+    font-weight: 100;
+    margin-left: -1280px;
+}
+
+ul, li {
+    color: white;
+    margin: 10px 0;
+}
+
+.abt {
+    color: black;
+    padding: 5px;
+}
+
+.box {
+    border-radius: 3px;
+    background-color: rgba(0, 0, 255, 0.468);
+}
+
+
+.contact {
+    background-color: rgb(103, 103, 103);
+    width: 500px;
+    height: 460px;
+    border-radius: 10px;
+    margin: 40px 450px;
+    padding: 40px;
+    margin-top: -150px;
+}
+
+.cont{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+}
+
+input{
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+}
+
+.messi input{
+   height: 120px;
+}
+
+button{
+    width: 300px;
+    height: 40px;
+    margin-left: 50px;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid white;
+    background-color: #52a450;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+
+.nAME input{
+    height: 40px;
+}
+
+.foot{
+    display: flex;
+    align-items: center;
+    background-color: #323232;
+    width: 1600px;
+    height: 70px;
+    gap: 40px;
+    color: white;
+    flex-direction: column;
+}
+.mintext{
+    margin-top:  20px;
+}
+
+.sectext{
+    margin-top: -30px;
+}
